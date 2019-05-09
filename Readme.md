@@ -2,7 +2,7 @@
 
 This script recursively generates a list of files & subdirectories plus the files & subdirectories within each subdirectory.
 
-Usage:
+## Usage:
 
 python3 getFileList.py -p /path/
 
