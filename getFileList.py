@@ -103,7 +103,7 @@ def main():
 
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("-p", "--path", nargs='+', help="Define the path to the directory", required="True")
-    parser.add_argument("-r", "--recursion-level", nargs='?', help="Recursively scan all subdirectories")
+    parser.add_argument("-r", "--recursion-level", nargs='?', help="How deep to recursively scan subdirectories")
     parser.add_argument("-f", "--filename", help="Store the output to a file")
     parser.add_argument("-e", "--exclude-extensions", nargs='+', help="A list of extensions that need to be ignored")
     parser.add_argument("-i", "--include-extensions", nargs='+', help="A list of extensions you want to include")
